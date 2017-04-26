@@ -1,0 +1,315 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>jQuery UI Tabs - Default functionality</title>
+	  <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.css">
+	  <link rel="stylesheet" href="css/style.css">
+	  <script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+	  <script src="libs/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	  <script>
+	  $( function() {
+		$("#tabs").tabs();
+		
+	  } );
+	  $( function() {
+		$("#accordion").accordion();
+		$("#accordion1").accordion();
+		$("#accordion2").accordion();
+		$("#accordion3").accordion();
+		$("#accordion4").accordion();
+	  } );
+	  $( function() {
+		$("#tabs-outer").tabs();
+		$("#tabs-outer-1").tabs();
+		$("#tabs-outer-2").tabs();
+		$("#tabs-outer-3").tabs();
+		$("#tabs-outer-4").tabs();
+	  } );
+	  </script>
+	</head>
+	<body>
+	<div id="tabs-outer" class="tab-outer1">
+	<ul class="outer-ul1">
+		<li><a href="#tabs-outer-1">Project name</a></li>
+		<li><a href="#tabs-outer-2">Home</a></li>
+		<li><a href="#tabs-outer-3">About</a></li>
+		<li><a href="#tabs-outer-4">Contact</a></li>
+	</ul>
+	<div id="tabs-outer-1"> 
+	<div id="tabs" class="tabs-inner">
+	  <ul class="inner-ul">
+		<li><a href="#tabs-1">Tab One</a></li>
+		<li><a href="#tabs-2">Tab Two</a></li>
+		<li><a href="#tabs-3">Tab Three</a></li>
+	  </ul>
+	  <div id="tabs-1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	  <div id="tabs-2">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus</p>
+	  </div>
+	  <div id="tabs-3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	</div>
+	 
+	 <div id="accordion1" class="accordion1">
+	  <h3>Section 1</h3>
+	  <div>
+		<p>
+		Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		</p>
+	  </div>
+	  <h3>Section 2</h3>
+	  <div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	  </div>
+	  <h3>Section 3</h3>
+	  <div>
+		<p>
+		Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		</p>
+		<ul>
+		  <li>List item one</li>
+		  <li>List item two</li>
+		  <li>List item three</li>
+		</ul>
+	  </div>
+	  <h3>Section 4</h3>
+	  <div>
+		<p>
+		Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		mauris vel est.
+		</p>
+		<p>
+		Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos.
+		</p>
+	  </div>
+	</div>
+	</div>
+	<!-- tab 2 home-->
+	<div id="tabs-outer-2"> 
+	<div id="tabs" class="tabs-inner">
+	  <ul class="inner-ul">
+		<li><a href="#tabs-1">Tab One</a></li>
+		<li><a href="#tabs-2">Tab Two</a></li>
+		<li><a href="#tabs-3">Tab Three</a></li>
+	  </ul>
+	  <div id="tabs-1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	  <div id="tabs-2">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus</p>
+	  </div>
+	  <div id="tabs-3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	</div>
+	 
+	 <div id="accordion2" class="accordion2">
+	  <h3>Section 1</h3>
+	  <div>
+		<p>
+		Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		</p>
+	  </div>
+	  <h3>Section 2</h3>
+	  <div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	  </div>
+	  <h3>Section 3</h3>
+	  <div>
+		<p>
+		Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		</p>
+		<ul>
+		  <li>List item one</li>
+		  <li>List item two</li>
+		  <li>List item three</li>
+		</ul>
+	  </div>
+	  <h3>Section 4</h3>
+	  <div>
+		<p>
+		Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		mauris vel est.
+		</p>
+		<p>
+		Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos.
+		</p>
+	  </div>
+	</div>
+	</div>
+	
+	<!--Tab 3 About Us -->
+	<div id="tabs-outer-3"> 
+	<div id="tabs" class="tabs-inner">
+	  <ul class="inner-ul">
+		<li><a href="#tabs-1">Tab One</a></li>
+		<li><a href="#tabs-2">Tab Two</a></li>
+		<li><a href="#tabs-3">Tab Three</a></li>
+	  </ul>
+	  <div id="tabs-1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	  <div id="tabs-2">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus</p>
+	  </div>
+	  <div id="tabs-3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	</div>
+	 
+	 <div id="accordion3" class="accordion3" >
+	  <h3>Section 1</h3>
+	  <div>
+		<p>
+		Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		</p>
+	  </div>
+	  <h3>Section 2</h3>
+	  <div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	  </div>
+	  <h3>Section 3</h3>
+	  <div>
+		<p>
+		Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		</p>
+		<ul>
+		  <li>List item one</li>
+		  <li>List item two</li>
+		  <li>List item three</li>
+		</ul>
+	  </div>
+	  <h3>Section 4</h3>
+	  <div>
+		<p>
+		Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		mauris vel est.
+		</p>
+		<p>
+		Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos.
+		</p>
+	  </div>
+	</div>
+	</div>
+<!-- Tab 4 About Us-->
+<div id="tabs-outer-4"> 
+	<div id="tabs" class="tabs-inner">
+	  <ul class="inner-ul">
+		<li><a href="#tabs-1">Tab One</a></li>
+		<li><a href="#tabs-2">Tab Two</a></li>
+		<li><a href="#tabs-3">Tab Three</a></li>
+	  </ul>
+	  <div id="tabs-1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	  <div id="tabs-2">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus</p>
+	  </div>
+	  <div id="tabs-3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+	</div>
+	 
+	 <div id="accordion4" class="accordion4">
+	  <h3>Section 1</h3>
+	  <div>
+		<p>
+		Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		</p>
+	  </div>
+	  <h3>Section 2</h3>
+	  <div>
+		<p>
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		</p>
+	  </div>
+	  <h3>Section 3</h3>
+	  <div>
+		<p>
+		Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		</p>
+		<ul>
+		  <li>List item one</li>
+		  <li>List item two</li>
+		  <li>List item three</li>
+		</ul>
+	  </div>
+	  <h3>Section 4</h3>
+	  <div>
+		<p>
+		Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		mauris vel est.
+		</p>
+		<p>
+		Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos.
+		</p>
+	  </div>
+	</div>
+	</div>
+
+	</div>
+	</body>
+	</html>
